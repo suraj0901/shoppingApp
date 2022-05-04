@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Sushi",
+    "price": 16.36,
+    "image": "",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "title": "Sushi",
+    "price": 16.36,
+    "image": "",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "Sushi",
+    "price": 16.36,
+    "image": "",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "title": "Sushi",
+    "price": 16.36,
+    "image": "",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "title": "Sushi",
+    "price": 16.36,
+    "image": "",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "title": "Sushi",
+    "price": 16.36,
+    "image": "",
+    "rating": 4
+  }
+]
