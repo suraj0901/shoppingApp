@@ -14,8 +14,11 @@ export default React.memo(({ onClose }) => {
   return (
     <Modal
       onClick={onClose}
-      className="bg-gray-50 p-0 w-full sm:top-20 sm:translate-y-0  max-w-screen-sm sm:w-11/12 rounded-xl h-screen sm:h-fit"
+      className="bg-gray-50 p-0 w-full sm:top-20 sm:translate-y-0  max-w-screen-sm sm:w-11/12 rounded-xl h-full sm:h-fit"
     >
+      {size === 0 && (
+        <p className="text-center p-4 text-xl font-medium">Cart is empty</p>
+      )}
       <div className="sm:max-h-96 max-h-[80%] overflow-y-scroll ">
         {list.map((item, index) => (
           <CartItem key={index} data={item} />
